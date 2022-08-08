@@ -71,7 +71,7 @@
 </details>
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Command list
 
 Deberás ejecturar los siguientes comandos según el ambiente para poder realizar la actualización correspondiente al sistema.
 
