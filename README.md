@@ -49,7 +49,7 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#requirements">Requerimientos</a>
+      <a href="#requerimientos">Requerimientos</a>
       <ul>
         <li><a href="#pod-backend">Pod Backend</a></li>
       </ul>
@@ -71,7 +71,7 @@
 </details>
 
 <!-- GETTING STARTED -->
-## Requirements
+## Requirimientos
 
 Para realizar correctamente la instalación deberás entrar dentro del pod de backend con el siguiente comando:
   ```sh
