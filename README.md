@@ -46,10 +46,10 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#lista-de-comandos">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -71,7 +71,7 @@
 </details>
 
 <!-- GETTING STARTED -->
-## Command list
+## Lista De Comandos
 
 Deberás ejecturar los siguientes comandos según el ambiente para poder realizar la actualización correspondiente al sistema.
 
