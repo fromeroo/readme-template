@@ -37,7 +37,7 @@
   <h3 align="center">README GEKKO</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Completa el paso a paso para poder subir a los diferentes ambientes!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
