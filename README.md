@@ -49,7 +49,7 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#lista-de-comandos">About The Project</a>
+      <a href="#lista-de-comandos">Listado de comandos</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
