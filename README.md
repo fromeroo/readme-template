@@ -49,7 +49,7 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#prerrequisitos">Prerrequisitos</a>
+      <a href="#requirements">Requerimientos</a>
       <ul>
         <li><a href="#pod-backend">Pod Backend</a></li>
       </ul>
@@ -71,16 +71,19 @@
 </details>
 
 <!-- GETTING STARTED -->
-## Prerrequisitos
+## Requirements
 
-Deberás ejecutar los siguientes comandos según el ambiente para poder realizar la actualización correspondiente al sistema.
-
-### POD Backend
-_Para realizar correctamente la instalación._
-
+Para realizar correctamente la instalación deberás entrar dentro del pod de backend con el siguiente comando:
+  ```sh
+    docker exec -it [3 primeros caracteres del container id de backend] sh
+  ```
+Ejemplo:
+  ```sh
+    docker exec -it 2bc sh
+  ```
 ### Lista De Comandos
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Deberás ejecutar los siguientes comandos según el ambiente para poder realizar la actualización correspondiente al sistema._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
