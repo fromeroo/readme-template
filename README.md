@@ -73,7 +73,7 @@
 <!-- GETTING STARTED -->
 ## Requirimientos
 
-Para realizar correctamente la instalación deberás entrar dentro del pod de backend con el siguiente comando:
+Antes de comenzar, debes asegurarte que estás dentro del pod de backend, con el siguiente comando puedes entrar:
   ```sh
     docker exec -it [3 primeros caracteres del container id de backend] sh
   ```
