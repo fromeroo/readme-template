@@ -49,9 +49,9 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#lista-de-comandos">Listado de comandos</a>
+      <a href="#prerrequisitos">Prerrequisitos</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#pod-backend">Pod Backend</a></li>
       </ul>
     </li>
     <li>
@@ -71,11 +71,14 @@
 </details>
 
 <!-- GETTING STARTED -->
-## Lista De Comandos
+## Prerrequisitos
 
-Deberás ejecturar los siguientes comandos según el ambiente para poder realizar la actualización correspondiente al sistema.
+Deberás ejecutar los siguientes comandos según el ambiente para poder realizar la actualización correspondiente al sistema.
 
-### Installation
+### POD Backend
+_Para realizar correctamente la instalación._
+
+### Lista De Comandos
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
