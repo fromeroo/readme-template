@@ -47,19 +47,18 @@
     <li>
       <a href="#guia-de-ambiente-local">Guía Ambiente Localhost</a>
       <ul>
-        <li><a href="#migraciones">Migraciones</a></li>
-        <li><a href="#seeders">Seeders</a></li>
-        <li><a href="#crons">Crons</a></li>
+        <li><a href="#migraciones-local">Migraciones</a></li>
+        <li><a href="#seeders-local">Seeders</a></li>
+        <li><a href="#crons-local">Crons</a></li>
       </ul>
       <a href="#guia-de-ambiente-dev">Guía Ambiente DEV</a>
       <ul>
-        <li><a href="#migraciones">Migraciones</a></li>
-        <li><a href="#seeders">Seeders</a></li>
-        <li><a href="#crons">Crons</a></li>
+        <li><a href="#migraciones-dev">Migraciones</a></li>
+        <li><a href="#seeders-dev">Seeders</a></li>
+        <li><a href="#crons-dev">Crons</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -78,7 +77,7 @@ Ejemplo:
 
 Deberás ejecutar los comandos agrupados en migraciones, seeders y crons.
 
-### Migraciones
+### Migraciones Local
 
 _Para correr todas las migraciones pendientes, deberás ejecutar:_
 
@@ -86,7 +85,7 @@ _Para correr todas las migraciones pendientes, deberás ejecutar:_
 npm run migration:run
 ```
 
-### Seeders
+### Seeders Local
 
 _Para poblar la BD con data relevante, deberás ejecutar:_
 
@@ -110,7 +109,7 @@ _Para poblar la BD con data relevante, deberás ejecutar:_
    npx sequelize db:seed:all --config ./src/Server/Config/Sequelize/config.js --seeders-path ./src/Core/Seeder/20220729155730-insertManyTickets
    ```
 
-### Crons
+### Crons Local
 
 _Para iniciar las tareas programadas, deberás ejecutar:_
 
@@ -129,7 +128,7 @@ _Para iniciar las tareas programadas, deberás ejecutar:_
 
 _Deberás ejecutar los comandos agrupados en migraciones, seeders y crons._
 
-### Migraciones
+### Migraciones Dev
 
 _Para correr todas las migraciones pendientes, deberás ejecutar:_
 
@@ -137,7 +136,7 @@ _Para correr todas las migraciones pendientes, deberás ejecutar:_
 npm run migration:dev:run
 ```
 
-### Seeders
+### Seeders Dev
 
 _Para poblar la BD con data relevante, deberás ejecutar:_
 
@@ -161,7 +160,7 @@ _Para poblar la BD con data relevante, deberás ejecutar:_
    npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220729155730-insertManyTickets
    ```
 
-### Crons
+### Crons Dev
 
 _Para iniciar las tareas programadas, deberás ejecutar:_
 
