@@ -23,11 +23,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://admin.gekkozone.cl/static/media/logo.d179bcd95c688b8899e4.png">
     <img src="https://admin.gekkozone.cl/static/media/logo.d179bcd95c688b8899e4.png" alt="Logo" width="120" height="80">
   </a>
 
-  <h3 align="center">README GEKKO</h3>
+  <h3 align="center">API GEKKO</h3>
 
   <p align="center">
     Completa el paso a paso para subir a los diferentes ambientes!
@@ -51,6 +51,8 @@
         <li><a href="#seeders-local">Seeders</a></li>
         <li><a href="#crons-local">Crons</a></li>
       </ul>
+    </li>
+    <li>
       <a href="#guia-de-ambiente-dev">Guía Ambiente DEV</a>
       <ul>
         <li><a href="#migraciones-dev">Migraciones</a></li>
@@ -67,11 +69,11 @@
 
 Antes de comenzar, debes asegurarte que estás dentro del pod de backend, con el siguiente comando puedes entrar:
   ```sh
-    docker exec -it [3 primeros caracteres del container id de backend] sh
+    docker exec -it [id container] sh
   ```
 Ejemplo:
   ```sh
-    docker exec -it 2bc sh
+    docker exec -it xxx sh
   ```
 ## Guia Ambiente Local
 
