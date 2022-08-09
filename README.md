@@ -81,7 +81,7 @@ Deberás ejecutar los comandos agrupados en migraciones, seeders y crons.
 _Para correr todas las migraciones pendientes, deberás ejecutar:_
 
 ```sh
-npm run migration:dev:run
+npm run migration:run
 ```
 
 ### Seeders
@@ -132,7 +132,7 @@ _Deberás ejecutar los comandos agrupados en migraciones, seeders y crons._
 _Para correr todas las migraciones pendientes, deberás ejecutar:_
 
 ```sh
-npm run migration:run
+npm run migration:dev:run
 ```
 
 ### Seeders
