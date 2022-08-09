@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo_gekko.png" alt="Logo" width="120" height="80">
+    <img src="https://admin.gekkozone.cl/static/media/logo.d179bcd95c688b8899e4.png" alt="Logo" width="120" height="80">
   </a>
 
   <h3 align="center">README GEKKO</h3>
