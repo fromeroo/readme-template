@@ -60,7 +60,7 @@
         <li><a href="#crons-dev">Crons</a></li>
       </ul>
     </li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Contacto</a></li>
   </ol>
 </details>
 
