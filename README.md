@@ -47,13 +47,15 @@
     <li>
       <a href="#guia-de-ambiente-local">Guía Ambiente Localhost</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#migraciones">Migraciones</a></li>
+        <li><a href="#seeders">Seeders</a></li>
+        <li><a href="#crons">Crons</a></li>
       </ul>
       <a href="#guia-de-ambiente-dev">Guía Ambiente DEV</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#migraciones">Migraciones</a></li>
+        <li><a href="#seeders">Seeders</a></li>
+        <li><a href="#crons">Crons</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
