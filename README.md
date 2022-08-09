@@ -74,7 +74,7 @@ Ejemplo:
   ```
 ## Guia Ambiente Local
 
-Deberás seguir el siguiente paso a paso.
+Deberás ejecutar los comandos agrupados en migraciones, seeders y crons.
 
 ### Migraciones
 
