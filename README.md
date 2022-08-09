@@ -76,13 +76,47 @@ Ejemplo:
 
 _Deberás seguir el siguiente paso a paso._
 
-### 
+### Migraciones
 
-1. 
-2. 
-3. 
-4. 
+```sh
+npm run migration:dev:run
+```
 
+### Seeders
+
+1. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220617194751-insertUsers
+   ```
+
+2. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220624031520-addPaymentMethod
+   ```
+
+3. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220624032347-addServices
+   ```
+
+4. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220624033813-addPrices
+   ```
+
+5. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220729155730-insertManyTickets
+   ```
+
+### Crons
+
+1. ```sh
+   crond start /etc/crontabs/root
+   ```
+
+2. ```sh
+   crond start /etc/crontabs/root2
+   ```
+
+3. ```sh
+   crond start /etc/crontabs/root3
+   ```
 ## Guia ambiente dev
 
 _Deberás ejecutar los siguientes comandos según el ambiente para poder realizar la actualización correspondiente al sistema._
