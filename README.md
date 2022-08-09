@@ -78,11 +78,15 @@ _Deberás seguir el siguiente paso a paso._
 
 ### Migraciones
 
+_Para correr todas las migraciones pendientes, deberás ejecutar:_
+
 ```sh
 npm run migration:dev:run
 ```
 
 ### Seeders
+
+_Para poblar la BD con data relevante, deberás ejecutar:_
 
 1. ```sh
    npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220617194751-insertUsers
@@ -105,6 +109,8 @@ npm run migration:dev:run
    ```
 
 ### Crons
+
+_Para iniciar las tareas programadas, deberás ejecutar:_
 
 1. ```sh
    crond start /etc/crontabs/root
