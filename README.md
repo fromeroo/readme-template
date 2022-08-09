@@ -88,25 +88,25 @@ npm run migration:dev:run
 
 _Para poblar la BD con data relevante, deberás ejecutar:_
 
-```sh
-npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220617194751-insertUsers
-```
+1. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220617194751-insertUsers
+   ```
 
-```sh
-npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220624031520-addPaymentMethod
-```
+2. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220624031520-addPaymentMethod
+   ```
 
-```sh
-npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220624032347-addServices
-```
+3. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220624032347-addServices
+   ```
 
-```sh
-npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220624033813-addPrices
-```
+4. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220624033813-addPrices
+   ```
 
-```sh
-npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220729155730-insertManyTickets
-```
+5. ```sh
+   npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220729155730-insertManyTickets
+   ```
 
 ### Crons
 
