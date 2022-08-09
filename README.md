@@ -89,6 +89,57 @@ npm run migration:dev:run
 _Para poblar la BD con data relevante, deberás ejecutar:_
 
 1. ```sh
+   npx sequelize db:seed:all --config ./src/Server/Config/Sequelize/config.js --seeders-path ./src/Core/Seeder/20220617194751-insertUsers
+   ```
+
+2. ```sh
+   npx sequelize db:seed:all --config ./src/Server/Config/Sequelize/config.js --seeders-path ./src/Core/Seeder/20220624031520-addPaymentMethod
+   ```
+
+3. ```sh
+   npx sequelize db:seed:all --config ./src/Server/Config/Sequelize/config.js --seeders-path ./src/Core/Seeder/20220624032347-addServices
+   ```
+
+4. ```sh
+   npx sequelize db:seed:all --config ./src/Server/Config/Sequelize/config.js --seeders-path ./src/Core/Seeder/20220624033813-addPrices
+   ```
+
+5. ```sh
+   npx sequelize db:seed:all --config ./src/Server/Config/Sequelize/config.js --seeders-path ./src/Core/Seeder/20220729155730-insertManyTickets
+   ```
+
+### Crons
+
+_Para iniciar las tareas programadas, deberás ejecutar:_
+
+1. ```sh
+   crond start /etc/crontabs/root
+   ```
+
+2. ```sh
+   crond start /etc/crontabs/root2
+   ```
+
+3. ```sh
+   crond start /etc/crontabs/root3
+   ```
+## Guia ambiente dev
+
+_Deberás ejecutar los comandos agrupados en migraciones, seeders y crons._
+
+### Migraciones
+
+_Para correr todas las migraciones pendientes, deberás ejecutar:_
+
+```sh
+npm run migration:run
+```
+
+### Seeders
+
+_Para poblar la BD con data relevante, deberás ejecutar:_
+
+1. ```sh
    npx sequelize db:seed:all --config ./Config/config.js --seeders-path ./Seeder/20220617194751-insertUsers
    ```
 
@@ -122,23 +173,6 @@ _Para iniciar las tareas programadas, deberás ejecutar:_
 
 3. ```sh
    crond start /etc/crontabs/root3
-   ```
-## Guia ambiente dev
-
-_Deberás ejecutar los siguientes comandos según el ambiente para poder realizar la actualización correspondiente al sistema._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
    ```
 
 <p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
