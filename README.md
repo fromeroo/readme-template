@@ -1,4 +1,4 @@
-<!-- Improved compatibility of subir link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of volver al inicio link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -141,13 +141,13 @@ _Deberás ejecutar los siguientes comandos según el ambiente para poder realiza
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#readme-top">subir</a>)</p>
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">subir</a>)</p>
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
 
 
@@ -156,7 +156,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Link del proyecto: [https://github.com/alenuss24/GekkoApiNode](https://github.com/alenuss24/GekkoApiNode)
 
-<p align="right">(<a href="#readme-top">subir</a>)</p>
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
 
 
@@ -174,7 +174,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#readme-top">subir</a>)</p>
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
 
 
