@@ -30,7 +30,7 @@
   <h3 align="center">README GEKKO</h3>
 
   <p align="center">
-    Completa el paso a paso para poder subir a los diferentes ambientes!
+    Completa el paso a paso para subir a los diferentes ambientes!
     <br />
   </p>
 </div>
